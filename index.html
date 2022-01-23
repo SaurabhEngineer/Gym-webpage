@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Gym website</title>
+    <style>
+        body {
+            background: url("https://images.pexels.com/photos/3112004/pexels-photo-3112004.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+            }
+
+        #leftdiv {
+            display: inline-block;
+            
+        }
+
+        #middiv {
+
+            display: inline-block;
+            position: absolute;
+            left: 40%;
+            padding: 20px;
+
+
+        }
+
+        a {
+            text-decoration: none;
+            font-size: 20px;
+            margin-right: 50px;
+            color: rgb(125, 202, 243);
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-weight: bolder;
+            
+        }
+
+        #rightdiv {
+
+            display: inline-block;
+            position: absolute;
+            left: 88%;
+           
+
+        }
+
+        button {
+            border-radius: 10px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        form {
+
+            display: inline-block;
+            position: absolute;
+            top: 30%;
+            left: 40%;
+            text-align: center;
+        }
+
+        input {
+
+            padding: 8px;
+            margin: 7px;
+            font-size: 23px;
+            width: 379px;
+            text-align: center;
+            border-radius: 20px;
+            color: rgb(0, 0, 0);
+        }
+
+        form button {
+            font-size: 20px;
+            padding: 10px;
+
+        }
+
+        form button:hover {
+            background-color: rgba(145, 86, 68, 0.452);
+        }
+
+        p {
+            font-size: 20px;
+            color: rgb(245, 248, 64);
+            font-weight: bolder;
+        }
+
+        img {
+            width: 114px;
+            height: 55px;
+            margin-left: 38px;
+            display: block;
+            filter: invert(100%);
+        }
+
+        #leftdiv p {
+            margin-left: 36px;
+
+            font-size: 21px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: rgb(190, 83, 83);
+        }
+
+        a:hover {
+            color: rgb(0, 255, 191);
+        }
+
+        @media(max-width:1202px) {
+            #middiv {
+                padding: 10px;
+                left: 20%;
+            }
+
+        }
+    </style>
+
+    <link href="" rel="stylesheet">
+
+</head>
+
+<body>
+    <div id="leftdiv">
+        <img src="https://images.pexels.com/photos/1162361/pexels-photo-1162361.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+            alt="">
+        <p style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Body Fitness</p>
+
+    </div>
+    <div id="middiv">
+        <a href="#">Home</a>
+        <a href="#">About us</a>
+        <a href="#">Fitness Body flexible us</a>
+        <a href="#">Contact us</a>
+    </div>
+    <div id="rightdiv">
+        <button>Email us</button>
+        <button>Calling Now us</button>
+    </div>
+    <div>
+        <form action="noaction.php">
+            <p>Join Our Gym Now </p>
+            <input type="text" placeholder="Enter your Name"><br>
+            <input type="text" placeholder="Enter your Age"><br>
+            <input type="text" placeholder="Enter your Gender"><br>
+            <input type="text" placeholder="Enter your Phone Number"><br>
+            <input type="text" placeholder="Enter your Location"><br>
+            <button>Submit form</button>
+        </form>
+    </div>
+</body>
+
+</html>
